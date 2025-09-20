@@ -1,0 +1,53 @@
+body {
+  background-color: #0000;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  overflow: hidden;
+}
+
+.btn__fill-0150 {
+  color: #fff;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  background-color: #38434c;
+  border-radius: 50px;
+  flex: none;
+  align-self: center;
+  font-family: Open Sans, sans-serif;
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 1.2;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  transform: translate(0);
+}
+
+.fill-0150__img {
+  filter: grayscale();
+  object-fit: cover;
+  object-position: 50% 10%;
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  inset: 0%;
+}
+
+.fill-0150__overlay {
+  opacity: .9;
+  background-image: linear-gradient(to right, #ff5331cc, #ffae00cc);
+  position: absolute;
+  inset: 0%;
+}
+
+.fill-0150__label {
+  padding: 25px 55px;
+  position: relative;
+}
