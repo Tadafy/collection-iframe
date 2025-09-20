@@ -1,0 +1,98 @@
+body {
+  background-color: #0000;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  overflow: hidden;
+}
+
+.btn__ico-0080 {
+  color: #fff;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  flex: none;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.2;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+}
+
+.ico-0080__wrap {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.ico-0080__line {
+  background-color: #2a3239;
+  width: 40px;
+  height: 1px;
+  margin-top: auto;
+  margin-bottom: auto;
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: -20px;
+}
+
+.ico-0080__arrow {
+  backface-visibility: hidden;
+  flex: none;
+  width: 12px;
+  height: 12px;
+  margin-top: auto;
+  margin-bottom: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 2px;
+  overflow: hidden;
+  transform: rotate(45deg);
+}
+
+.ico-0080__arr--t {
+  background-color: #2a3239;
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  right: 0%;
+}
+
+.ico-0080__arr--b {
+  background-color: #2a3239;
+  width: 1px;
+  height: 100%;
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  right: 0%;
+}
+
+.ico-0080__fill {
+  opacity: 1;
+  background-color: #c2c7cc;
+  width: 100%;
+  margin-top: auto;
+  margin-bottom: auto;
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+}
+
+.ico-0080__label {
+  padding: 35px 26px;
+  position: relative;
+}

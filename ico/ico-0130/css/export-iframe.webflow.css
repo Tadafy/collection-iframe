@@ -1,0 +1,66 @@
+body {
+  background-color: #0000;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  overflow: hidden;
+}
+
+.btn__ico-0130 {
+  color: #00e66d;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  background-color: #0000;
+  border: 2px solid #00e66d;
+  border-radius: 50px;
+  flex: none;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  font-family: Exo, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.1;
+  text-decoration: none;
+  transition: all .2s;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn__ico-0130:hover {
+  color: #fff;
+  background-color: #00e66d;
+}
+
+.ico-0130__wrap {
+  justify-content: center;
+  align-items: center;
+  padding-left: 25px;
+  display: flex;
+}
+
+.ico-0130__label {
+  padding: 30px 35px 30px 10px;
+}
+
+.ico-0130__span {
+  padding-left: 2px;
+  font-weight: 800;
+}
+
+@media screen and (max-width: 991px) {
+  .btn__ico-0130 {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .ico-0130__wrap {
+    left: 30px;
+  }
+}

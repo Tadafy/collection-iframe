@@ -1,0 +1,123 @@
+body {
+  background-color: #0000;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  overflow: hidden;
+}
+
+.ico-0110__line-shf--top {
+  background-color: #fff;
+  width: 7px;
+  height: 3px;
+}
+
+.ico-0110__frame-shift {
+  border-style: none none solid solid;
+  border-width: 3px;
+  border-bottom-color: #fff;
+  border-left-color: #fff;
+  display: block;
+  position: absolute;
+  inset: 0%;
+  transform: translate(-8px, 8px);
+}
+
+.ico-0110__label {
+  color: #fff;
+  padding: 60px 30px;
+  position: relative;
+}
+
+.ico-0110__bord--top {
+  background-color: #fff;
+  width: 100%;
+  height: 3px;
+  position: absolute;
+  inset: 0 auto auto 0;
+}
+
+.ico-0110__icon {
+  filter: invert();
+}
+
+.ico-0110__curl {
+  z-index: 100;
+  background-color: #fff;
+  border-bottom-left-radius: 0;
+  width: 50px;
+  height: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: -25px;
+  left: 45px;
+  transform: rotate(-45deg);
+}
+
+.btn__ico-0110 {
+  color: #000;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  background-color: #0000;
+  flex: none;
+  align-self: center;
+  font-family: Montserrat, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  transform: rotate(.01deg);
+}
+
+.ico-0110__color {
+  transform-origin: 100%;
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  inset: 25px 27px auto auto;
+  overflow: hidden;
+  transform: rotate(45deg);
+}
+
+.ico-0110__line-shf--r {
+  background-color: #fff;
+  width: 3px;
+  height: 7px;
+  position: absolute;
+  inset: auto 0% 0% auto;
+}
+
+.ico-0110__frame {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: absolute;
+  inset: 0%;
+  overflow: hidden;
+}
+
+.ico-0110__bord--r {
+  background-color: #fff;
+  width: 3px;
+  height: 100%;
+  position: absolute;
+  inset: 0% 0% auto auto;
+}
+
+.ico-0110__border {
+  border-top: 0 #0000;
+  border-bottom: 3px solid #fff;
+  border-left: 3px solid #fff;
+  border-right: 3px #0000;
+  position: absolute;
+  inset: 0%;
+  overflow: visible;
+}

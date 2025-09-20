@@ -1,0 +1,59 @@
+body {
+  background-color: #0000;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  overflow: hidden;
+}
+
+.btn__ico-0105 {
+  color: #fff;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  flex: none;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.2;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+}
+
+.ico-0105__curl-w {
+  transform-origin: 100%;
+  background-color: #a57cec;
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  inset: 25px 25px auto auto;
+  overflow: hidden;
+  transform: rotate(45deg);
+}
+
+.ico-0105__curl {
+  background-color: #2a3239;
+  border-bottom-left-radius: 4px;
+  width: 50px;
+  height: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: -26px;
+  left: 44px;
+  transform: rotate(-45deg);
+}
+
+.ico-0105__label {
+  padding: 25px 55px;
+  position: relative;
+}

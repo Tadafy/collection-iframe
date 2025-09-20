@@ -1,0 +1,60 @@
+body {
+  background-color: #0000;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  overflow: hidden;
+}
+
+.btn__ico-0095 {
+  color: #000;
+  text-align: center;
+  letter-spacing: 1px;
+  flex: none;
+  justify-content: space-between;
+  align-self: center;
+  align-items: center;
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.2;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+}
+
+.ico-0095__wrap {
+  border: 3px solid #2a3239;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.ico-0095__icon-w {
+  background-color: #2bc78a;
+  flex: none;
+  justify-content: center;
+  align-self: stretch;
+  align-items: center;
+  width: 70px;
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+.ico-0095__icon {
+  filter: invert();
+  flex: 0 auto;
+  width: 38px;
+  margin: auto;
+  position: absolute;
+  inset: -4px 0 0;
+}
+
+.ico-0095__label {
+  flex: 1;
+  padding: 22px 20px;
+}

@@ -1,0 +1,142 @@
+body {
+  background-color: #0000;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  overflow: hidden;
+}
+
+.btn__ico-0115 {
+  color: #2bc78a;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transform-style: preserve-3d;
+  background-color: #0000;
+  flex: none;
+  align-self: center;
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  transform: none;
+}
+
+.ico-0115__bord--top {
+  background-color: #2bc78a;
+  width: 100%;
+  height: 3px;
+  position: absolute;
+  inset: 0 auto auto 0;
+}
+
+.ico-0115__line-shf--top {
+  background-color: #000;
+  width: 7px;
+  height: 3px;
+  display: none;
+}
+
+.ico-0115__frame {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  font-weight: 700;
+  display: flex;
+  position: absolute;
+  inset: 0%;
+  overflow: hidden;
+}
+
+.ico-0115__label-2nd {
+  color: #2bc78a;
+}
+
+.ico-0115__curl {
+  z-index: 100;
+  background-color: #2bc78a;
+  border-bottom-left-radius: 0;
+  width: 50px;
+  height: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: -25px;
+  left: 45px;
+  transform: rotate(-45deg);
+}
+
+.ico-0115__bord--r {
+  background-color: #2bc78a;
+  width: 3px;
+  height: 100%;
+  position: absolute;
+  inset: 0% 0% auto auto;
+}
+
+.ico-0115__line-shf--r {
+  background-color: #000;
+  width: 3px;
+  height: 7px;
+  display: none;
+  position: absolute;
+  inset: auto 0% 0% auto;
+}
+
+.ico-0115__label {
+  padding: 50px 15px 49px;
+  position: relative;
+}
+
+.ico-0115__color {
+  transform-origin: 100%;
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  inset: 25px 27px auto auto;
+  overflow: hidden;
+  transform: rotate(45deg);
+}
+
+.ico-0115__frame-shift {
+  border-top: 3px #2a3239;
+  border-bottom: 3px solid #000;
+  border-left: 3px solid #000;
+  border-right: 3px #2a3239;
+  margin-top: 1px;
+  margin-right: 1px;
+  display: block;
+  position: absolute;
+  inset: 0%;
+  transform: translate(-8px, 8px);
+}
+
+.ico-0115__border {
+  border-top: 0 #0000;
+  border-bottom: 3px solid #2bc78a;
+  border-left: 3px solid #2bc78a;
+  border-right: 0 #0000;
+  position: absolute;
+  inset: 0%;
+  overflow: visible;
+}
+
+.ico-0115__frame-shift-2nd {
+  border-top: 3px #2a3239;
+  border-bottom: 3px solid #000;
+  border-left: 3px solid #000;
+  border-right: 3px #2a3239;
+  margin-top: 1px;
+  margin-right: 1px;
+  display: block;
+  position: absolute;
+  inset: 0%;
+  transform: translate(-16px, 16px);
+}

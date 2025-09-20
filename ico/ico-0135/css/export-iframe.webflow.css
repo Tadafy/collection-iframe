@@ -1,0 +1,121 @@
+body {
+  background-color: #0000;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  overflow: hidden;
+}
+
+.ico-0135__line--r {
+  justify-content: flex-end;
+  width: 100px;
+  height: 2px;
+  display: flex;
+  position: relative;
+}
+
+.ico-0135__line {
+  background-color: #2a3239;
+  justify-content: flex-end;
+  align-items: center;
+  width: 75%;
+  display: block;
+  position: relative;
+}
+
+.ico-0135__line.line--l {
+  background-color: #00e66d;
+}
+
+.ico-0135__line--l {
+  align-items: stretch;
+  width: 100px;
+  height: 2px;
+  display: flex;
+  position: relative;
+}
+
+.ico-0135__arr-r--b {
+  background-color: #2a3239;
+  width: 2px;
+  height: 100%;
+  position: absolute;
+  inset: 0% 0% 0% auto;
+}
+
+.ico-0135__label {
+  margin-right: -3px;
+  padding-top: 28px;
+  padding-bottom: 28px;
+}
+
+.btn__ico-0135 {
+  color: #2a3239;
+  text-align: center;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  border: 2px solid #2a3239;
+  flex: none;
+  align-self: center;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: Montserrat, sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.2px;
+  text-decoration: none;
+  transition: all .35s;
+  display: inline-block;
+  position: relative;
+}
+
+.btn__ico-0135:hover {
+  color: #00e66d;
+}
+
+.ico-0135__arrow-w {
+  backface-visibility: hidden;
+  flex: none;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  inset: -4px 1px 0% auto;
+  overflow: hidden;
+  transform: rotate(45deg);
+}
+
+.ico-0135__arr-r--t {
+  background-color: #2a3239;
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  inset: 0% 0% 0% auto;
+}
+
+.ico-0135__wrap {
+  z-index: 2;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+
+.ico-0135__arr-l--t {
+  background-color: #00e66d;
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  inset: 0% 0% 0% auto;
+}
+
+.ico-0135__arr-l--b {
+  background-color: #00e66d;
+  width: 2px;
+  height: 100%;
+  position: absolute;
+  inset: 0% 0% 0% auto;
+}
