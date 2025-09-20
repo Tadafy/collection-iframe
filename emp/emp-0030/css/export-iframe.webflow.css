@@ -1,0 +1,27 @@
+body {
+  background-color: #0000;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  overflow: hidden;
+}
+
+.sfx__emp-0030 {
+  color: #fafafa;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #2a3239;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  font-family: Montserrat, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1;
+  text-decoration: none;
+  display: flex;
+}
