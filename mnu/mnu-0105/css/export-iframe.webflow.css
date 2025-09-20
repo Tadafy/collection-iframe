@@ -1,0 +1,118 @@
+body {
+  background-color: #0000;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  overflow: hidden;
+}
+
+.mnu-0105__top {
+  height: 50%;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+}
+
+.btn__mnu-0105 {
+  perspective: 800px;
+  color: #000;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  flex: none;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.4;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  transform: rotate(.01deg);
+}
+
+.mnu-0105__bott-bar {
+  background-color: #2a3239;
+  width: 100%;
+  height: 3px;
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+  transform: translate(0, 50%);
+}
+
+.mnu-0105__set-in-size {
+  width: 30px;
+  height: 21px;
+  position: relative;
+}
+
+.mnu-0105__icon {
+  width: 50px;
+  display: block;
+  position: relative;
+  top: -1px;
+}
+
+.mnu-0105__top-bar {
+  background-color: #2a3239;
+  width: 100%;
+  height: 3px;
+  position: relative;
+  transform: translate(0, -50%);
+}
+
+.mnu-0105__set-out-size {
+  transform-origin: 50% 0;
+  transform-style: preserve-3d;
+  background-color: #fff;
+  justify-content: center;
+  align-items: center;
+  width: 65px;
+  height: 65px;
+  display: flex;
+  position: relative;
+  transform: none;
+}
+
+.mnu-0105__bott {
+  height: 50%;
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+}
+
+.mnu-0105__back {
+  z-index: -1;
+  transform-origin: 0 100%;
+  color: #fff;
+  transform-style: preserve-3d;
+  background-color: #2a3239;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  transform: rotateX(90deg)rotateY(0)rotateZ(0);
+}
+
+.mnu-0105__cent-bar {
+  background-color: #2a3239;
+  width: 100%;
+  height: 3px;
+  margin-top: auto;
+  margin-bottom: auto;
+  position: absolute;
+  inset: 0%;
+}
