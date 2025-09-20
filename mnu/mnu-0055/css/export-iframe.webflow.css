@@ -1,0 +1,94 @@
+body {
+  background-color: #0000;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  overflow: hidden;
+}
+
+.mnu-0055__bott-bar {
+  transform-origin: 100%;
+  background-color: #2a3239;
+  width: 100%;
+  height: 3px;
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+  transform: translate(0, 50%);
+}
+
+.mnu-0055__cent {
+  margin-top: auto;
+  margin-bottom: auto;
+  position: absolute;
+  inset: 0%;
+}
+
+.btn__mnu-0055 {
+  color: #2a3239;
+  text-align: center;
+  flex: none;
+  align-self: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+}
+
+.mnu-0055__top {
+  height: 50%;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+}
+
+.mnu-0055__set-out-size {
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  position: relative;
+}
+
+.mnu-0055__cent-bar {
+  background-color: #2a3239;
+  width: 100%;
+  height: 3px;
+  margin-top: auto;
+  margin-bottom: auto;
+  position: absolute;
+  inset: 0%;
+}
+
+.mnu-0055__top-bar {
+  transform-origin: 0%;
+  background-color: #2a3239;
+  width: 100%;
+  height: 3px;
+  position: relative;
+  transform: translate(0, -50%);
+}
+
+.mnu-0055__bott {
+  height: 50%;
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+}
+
+.mnu-0055__set-in-size {
+  flex: none;
+  width: 29px;
+  height: 21px;
+  position: relative;
+}
