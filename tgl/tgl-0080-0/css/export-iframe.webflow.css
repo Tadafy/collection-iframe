@@ -1,0 +1,158 @@
+.w-checkbox {
+  margin-bottom: 5px;
+  padding-left: 20px;
+  display: block;
+}
+
+.w-checkbox:before {
+  content: " ";
+  grid-area: 1 / 1 / 2 / 2;
+  display: table;
+}
+
+.w-checkbox:after {
+  content: " ";
+  clear: both;
+  grid-area: 1 / 1 / 2 / 2;
+  display: table;
+}
+
+.w-checkbox-input {
+  float: left;
+  margin: 4px 0 0 -20px;
+  line-height: normal;
+}
+
+.w-checkbox-input--inputType-custom {
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  width: 12px;
+  height: 12px;
+}
+
+.w-checkbox-input--inputType-custom.w--redirected-checked {
+  background-color: #3898ec;
+  background-image: url('https://d3e54v103j8qbb.cloudfront.net/static/custom-checkbox-checkmark.589d534424.svg');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-color: #3898ec;
+}
+
+.w-checkbox-input--inputType-custom.w--redirected-focus {
+  box-shadow: 0 0 3px 1px #3898ec;
+}
+
+body {
+  background-color: #0000;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  overflow: hidden;
+}
+
+.btn__tgl-0080-0__checkboxwrap {
+  margin-bottom: 0;
+  padding-left: 0;
+  font-size: .07em;
+  line-height: 1;
+  display: block;
+  position: relative;
+}
+
+.tgl-0080-0__checkbox {
+  z-index: 3;
+  opacity: 0;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  margin-top: 0;
+  margin-left: 0;
+  display: block;
+  position: absolute;
+  inset: 0%;
+}
+
+.tgl-0080-0__checkbox.w--redirected-checked {
+  background-image: none;
+  background-position: 0 0;
+  background-repeat: repeat;
+  background-size: auto;
+  width: 100%;
+  height: 100%;
+  margin-top: 0;
+  margin-left: 0;
+}
+
+.tgl-0080-0__checkbox-label {
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 0;
+  display: none;
+  position: absolute;
+  inset: 0%;
+}
+
+.tgl-0080-0__custom {
+  z-index: 2;
+  align-items: center;
+  height: 20em;
+  font-family: Montserrat, sans-serif;
+  display: flex;
+  position: relative;
+}
+
+.tgl-0080-0__wrap {
+  z-index: 2;
+  color: #fff;
+  text-align: center;
+  background-color: #e3e3e3;
+  border-radius: 50em;
+  justify-content: flex-end;
+  width: 36em;
+  height: 14em;
+  padding-top: 0;
+  padding-left: 0;
+  padding-right: 0;
+  font-family: Montserrat, sans-serif;
+  font-weight: 600;
+  line-height: 1;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  overflow: visible;
+}
+
+.tgl-0080-0__switch {
+  box-shadow: none;
+  background-color: #909090;
+  border-radius: 50%;
+  width: 20em;
+  height: 20em;
+  margin-top: auto;
+  margin-bottom: auto;
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+}
+
+.tgl-0080-0__label-w {
+  color: #2a3239;
+  text-transform: none;
+  align-items: center;
+  height: 100%;
+  padding-left: 40em;
+  font-family: Montserrat, sans-serif;
+  font-weight: 300;
+  display: none;
+  overflow: hidden;
+}
+
+.tgl-0080-0__label {
+  font-size: 16em;
+}
