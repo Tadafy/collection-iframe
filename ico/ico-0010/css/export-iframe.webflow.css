@@ -1,0 +1,70 @@
+body {
+  background-color: #0000;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  overflow: hidden;
+}
+
+.btn__ico-0010 {
+  color: #000;
+  text-align: center;
+  letter-spacing: 1px;
+  flex: none;
+  justify-content: space-between;
+  align-self: center;
+  align-items: center;
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.2;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+}
+
+.ico-0010__wrap {
+  background-color: #1877f2;
+  border-radius: 50px;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 40px;
+  padding-right: 40px;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.ico-0010__wrap2 {
+  position: relative;
+}
+
+.ico-0010__label {
+  flex: 1;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.ico-0010__icon {
+  filter: invert();
+  flex: none;
+  width: 32px;
+  margin-top: auto;
+  margin-bottom: auto;
+  position: absolute;
+  top: -5px;
+  bottom: 0%;
+  right: -40px;
+}
+
+.ico-0010__ico-space {
+  flex: none;
+  justify-content: flex-end;
+  align-self: stretch;
+  align-items: center;
+  width: 30px;
+  display: flex;
+}
