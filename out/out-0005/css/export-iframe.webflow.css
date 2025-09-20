@@ -1,0 +1,35 @@
+body {
+  background-color: transparent;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+}
+
+.btn__out-0005 {
+  color: #000;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  border: 1px solid #0000;
+  flex: none;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.2;
+  text-decoration: none;
+  transition: all .2s;
+  display: inline-block;
+}
+
+.btn__out-0005:hover {
+  border-color: #2a3239;
+}
+
+.out-0005__label {
+  padding: 30px 50px;
+}

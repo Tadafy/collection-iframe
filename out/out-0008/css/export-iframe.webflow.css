@@ -1,0 +1,41 @@
+body {
+  background-color: transparent;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+}
+
+.btn__out-0008 {
+  color: #fff;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  background-color: #2a3239;
+  border: 2px solid #2d3037;
+  flex: none;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.2;
+  text-decoration: none;
+  transition: all .1s;
+  display: inline-block;
+}
+
+.btn__out-0008:hover {
+  color: #2a3239;
+  background-color: #0000;
+}
+
+.btn__out-0008:active {
+  transform: scale(.95);
+}
+
+.out-0008__label {
+  padding: 25px 40px;
+}
