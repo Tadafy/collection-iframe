@@ -1,0 +1,62 @@
+body {
+  background-color: #0000;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  overflow: hidden;
+}
+
+.btn__3d-0005 {
+  perspective: 300px;
+  color: #000;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  flex: none;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.2;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+}
+
+._3d-0005__wrap {
+  transform-style: preserve-3d;
+  transition: all .2s;
+  position: relative;
+}
+
+._3d-0005__wrap:hover {
+  transform: rotateX(20deg)rotateY(0)rotateZ(0);
+}
+
+._3d-0005__front {
+  background-color: #ff4040;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  inset: 0%;
+}
+
+._3d-0005__label {
+  padding: 7px 44px;
+  position: relative;
+}
+
+._3d-0005__bott {
+  transform-origin: 50% 0;
+  transform-style: preserve-3d;
+  background-color: #2a3239;
+  height: 25px;
+  position: absolute;
+  inset: 100% 0% 0%;
+  transform: rotateX(-90deg)rotateY(0)rotateZ(0);
+}

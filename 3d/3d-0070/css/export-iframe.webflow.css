@@ -1,0 +1,74 @@
+body {
+  background-color: #0000;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  overflow: hidden;
+}
+
+.btn__3d-0070 {
+  perspective: 800px;
+  color: #111;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  flex: none;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.2;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+}
+
+._3d-0070__wrap {
+  transform-origin: 50% 0;
+  transform-style: preserve-3d;
+  background-color: #fff;
+  border-top: 2px solid #000;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  display: inline-block;
+  position: relative;
+  box-shadow: 0 10px 6px #00000008;
+}
+
+._3d-0070__wrap:hover {
+  transform: rotateX(.01deg)rotateY(0)rotateZ(0);
+}
+
+._3d-0070__label {
+  padding: 15px 40px;
+  position: relative;
+}
+
+._3d-0070__top {
+  transform-origin: 50% 0;
+  color: #fff;
+  transform-style: preserve-3d;
+  background-color: #000;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: absolute;
+  inset: 0%;
+  transform: rotateX(180deg)rotateY(0)rotateZ(0);
+}
+
+._3d-0070__icon {
+  filter: invert();
+  width: 30px;
+  position: relative;
+  top: -1px;
+}

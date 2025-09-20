@@ -1,0 +1,78 @@
+body {
+  background-color: #0000;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  overflow: hidden;
+}
+
+.btn__3d-0035 {
+  perspective: 800px;
+  color: #fff;
+  text-align: center;
+  letter-spacing: 5px;
+  text-transform: capitalize;
+  flex: none;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  font-family: Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 1.2;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+}
+
+._3d-0035__wrap {
+  backface-visibility: hidden;
+  transform-origin: 100%;
+  transform-style: preserve-3d;
+  background-color: #2a3239;
+  border-radius: 25px;
+  justify-content: center;
+  align-items: center;
+  display: inline-block;
+  position: relative;
+  transform: none;
+}
+
+._3d-0035__label {
+  padding: 50px 40px;
+  position: relative;
+}
+
+._3d-0035__right {
+  z-index: -1;
+  backface-visibility: hidden;
+  transform-origin: 0 0;
+  color: #fff;
+  transform-style: preserve-3d;
+  background-color: #ff4848;
+  border-radius: 25px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  transform: rotateX(0)rotateY(90deg)rotateZ(0);
+}
+
+._3d-0035__icon {
+  filter: invert();
+  width: 50px;
+  display: block;
+  position: relative;
+  top: -1px;
+}
+
+._3d-0035__label--top {
+  display: none;
+}

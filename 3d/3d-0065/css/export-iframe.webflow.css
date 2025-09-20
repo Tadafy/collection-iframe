@@ -1,0 +1,61 @@
+body {
+  background-color: #0000;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  overflow: hidden;
+}
+
+.btn__3d-0065 {
+  perspective: 800px;
+  color: #000;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  flex: none;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.2;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+}
+
+._3d-0065__wrap {
+  transform-origin: 100%;
+  transform-style: preserve-3d;
+  background-color: #ffae00;
+  justify-content: center;
+  align-items: center;
+  display: inline-block;
+  position: relative;
+}
+
+._3d-0065__wrap:hover {
+  transform: rotateX(.01deg)rotateY(0)rotateZ(0);
+}
+
+._3d-0065__label {
+  padding: 50px 30px;
+  position: relative;
+}
+
+._3d-0065__left {
+  transform-origin: 0%;
+  color: #fff;
+  transform-style: preserve-3d;
+  background-color: #2a3239;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: absolute;
+  inset: 0%;
+  transform: rotateX(0)rotateY(180deg)rotateZ(0);
+}
