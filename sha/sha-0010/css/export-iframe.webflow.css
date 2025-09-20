@@ -1,0 +1,43 @@
+body {
+  background-color: #0000;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  overflow: hidden;
+}
+
+.btn__sha-0010 {
+  color: #47ff8a;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  background-color: #0000;
+  border: 2px solid #47ff8a;
+  border-radius: 40px;
+  flex: none;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1;
+  text-decoration: none;
+  transition: all .1s;
+  display: inline-block;
+  position: relative;
+}
+
+.btn__sha-0010:hover {
+  color: #fff;
+  background-color: #47ff8a;
+  border-color: #fff;
+  box-shadow: 0 0 18px #47ff8a;
+}
+
+.sha-0010__label {
+  padding: 15px 62px;
+  position: relative;
+}
