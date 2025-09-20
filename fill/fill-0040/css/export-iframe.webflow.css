@@ -1,0 +1,47 @@
+body {
+  background-color: #0000;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  overflow: hidden;
+}
+
+.btn__fill-0040 {
+  color: #2a3239;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  background-color: #fff;
+  flex: none;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.2;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+}
+
+.fill-0040__fill--lay2 {
+  background-color: #2a3239;
+  position: absolute;
+  inset: -1%;
+}
+
+.fill-0040__fill {
+  background-color: red;
+  position: absolute;
+  inset: -1%;
+}
+
+.fill-0040__label {
+  padding: 30px 55px;
+  position: relative;
+}

@@ -1,0 +1,42 @@
+body {
+  background-color: #0000;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  overflow: hidden;
+}
+
+.btn__fill-0012 {
+  color: #fff;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  background-color: #2bc78a;
+  border-radius: 40px;
+  flex: none;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1;
+  text-decoration: none;
+  transition: all .2s;
+  display: inline-block;
+}
+
+.btn__fill-0012:hover {
+  color: #fff;
+  background-color: #30e29d;
+  text-decoration: none;
+}
+
+.fill-0012__label {
+  float: left;
+  padding: 18px 45px;
+  position: relative;
+}
