@@ -1,0 +1,51 @@
+body {
+  background-color: #0000;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  overflow: hidden;
+}
+
+.btn__sha-0110 {
+  color: #000;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  flex: none;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.2;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+}
+
+.sha-0110__shad {
+  opacity: .1;
+  background-color: #2a3239;
+  position: absolute;
+  inset: 0%;
+  transform: translate(4px, 4px);
+}
+
+.sha-0110__frame {
+  background-color: #fff;
+  border: 2px solid #2a3239;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: relative;
+  transform: translate(-4px, -4px);
+}
+
+.sha-0110__label {
+  padding: 30px 50px;
+  position: relative;
+}

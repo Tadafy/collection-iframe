@@ -1,0 +1,80 @@
+body {
+  background-color: #0000;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  overflow: hidden;
+}
+
+.btn__sha-0085 {
+  color: #fff;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  flex: none;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  font-family: Montserrat, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.2;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+}
+
+.sha-0085__wrap {
+  justify-content: center;
+  align-items: center;
+}
+
+.sha-0085__fade--t {
+  opacity: .5;
+  background-image: linear-gradient(270deg, #547cff, #fff0 75%);
+  border-radius: 50px;
+  justify-content: center;
+  align-items: center;
+  margin-top: -7px;
+  display: block;
+  position: absolute;
+  inset: 0 0 7px;
+}
+
+.sha-0085__fade--t.lev-02 {
+  opacity: .45;
+  display: block;
+}
+
+.sha-0085__fade--b {
+  opacity: .5;
+  background-image: linear-gradient(270deg, #fff0 25%, #547cff);
+  border-radius: 50px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: -7px;
+  position: absolute;
+  inset: 7px 0 0;
+}
+
+.sha-0085__fade--b.lev-02 {
+  opacity: .45;
+}
+
+.sha-0085__fill {
+  background-color: #547cff;
+  background-image: none;
+  border-radius: 50px;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  inset: 0%;
+}
+
+.sha-0085__label {
+  padding: 15px 50px;
+  position: relative;
+}

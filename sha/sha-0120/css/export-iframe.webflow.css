@@ -1,0 +1,78 @@
+body {
+  background-color: #0000;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  overflow: hidden;
+}
+
+.btn__sha-0120 {
+  color: #2a3239;
+  text-align: center;
+  letter-spacing: 1px;
+  flex-direction: row;
+  flex: none;
+  justify-content: flex-end;
+  align-self: center;
+  align-items: center;
+  font-family: Open Sans, sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+}
+
+.sha-0120__fade-w {
+  flex: none;
+  position: absolute;
+  inset: 0%;
+  transform: translate(0);
+}
+
+.sha-0120__fade--t {
+  background-color: #00e67a66;
+  border-radius: 20px;
+  height: 100%;
+  margin-top: -10px;
+  margin-left: 15px;
+  margin-right: 15px;
+  position: absolute;
+  inset: 0;
+}
+
+.sha-0120__fade--t.lev-02 {
+  background-color: #00e67a26;
+}
+
+.sha-0120__fade--b {
+  z-index: -1;
+  background-color: #00e67a66;
+  border-radius: 20px;
+  height: 100%;
+  margin-top: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
+  position: absolute;
+  inset: 0;
+}
+
+.sha-0120__fade--b.lev-02 {
+  background-color: #00e67a26;
+}
+
+.sha-0120__fill {
+  background-color: #00e67a;
+  border-radius: 50px;
+  position: absolute;
+  inset: 0%;
+}
+
+.sha-0120__label {
+  padding: 15px 55px;
+  position: relative;
+}

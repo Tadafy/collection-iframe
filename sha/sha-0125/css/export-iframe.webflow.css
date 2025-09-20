@@ -1,0 +1,122 @@
+body {
+  background-color: #0000;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  overflow: hidden;
+}
+
+.sha-0125__label {
+  padding: 50px 20px;
+  position: relative;
+}
+
+.btn__sha-0125 {
+  color: #fafafa;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  flex-direction: row;
+  flex: none;
+  justify-content: flex-end;
+  align-self: center;
+  align-items: center;
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.2;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+}
+
+.sha-0125__fade--b {
+  opacity: .4;
+  background-color: #2a3239;
+  height: 100%;
+  margin-top: 12px;
+  margin-left: 5px;
+  margin-right: 5px;
+  position: absolute;
+  inset: 0;
+}
+
+.sha-0125__fade--b.lev-02 {
+  opacity: .15;
+  margin-top: 9px;
+}
+
+.sha-0125__fade-w {
+  flex: none;
+  position: absolute;
+  inset: 0%;
+  transform: translate(0);
+}
+
+.sha-0125__fade--l {
+  opacity: .4;
+  background-color: #2a3239;
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: -12px;
+  position: absolute;
+  inset: 0;
+}
+
+.sha-0125__fade--l.lev-02 {
+  opacity: .15;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: -9px;
+}
+
+.sha-0125__wrap {
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
+}
+
+.sha-0125__fade--t {
+  opacity: .4;
+  background-color: #2a3239;
+  height: 100%;
+  margin-top: -12px;
+  margin-left: 5px;
+  margin-right: 5px;
+  position: absolute;
+  inset: 0;
+}
+
+.sha-0125__fade--t.lev-02 {
+  opacity: .15;
+  margin-top: -9px;
+}
+
+.sha-0125__fade--r {
+  z-index: -1;
+  opacity: .4;
+  background-color: #2a3239;
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 12px;
+  position: absolute;
+  inset: 0;
+}
+
+.sha-0125__fade--r.lev-02 {
+  opacity: .15;
+  margin-left: 9px;
+}
+
+.sha-0125__fill {
+  background-color: #2a3239;
+  position: absolute;
+  inset: 0%;
+}
