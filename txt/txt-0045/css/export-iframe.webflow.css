@@ -1,0 +1,46 @@
+body {
+  background-color: #0000;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  overflow: hidden;
+}
+
+.btn__txt-0045 {
+  color: #2a3239;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  flex: none;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  font-family: Bitter, serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+}
+
+.txt-0045__wrap {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.txt-0045__label {
+  color: #00f;
+}
+
+.txt-0045__label--2nd {
+  color: #f0f;
+}
+
+.txt-0045__label--3rd {
+  color: red;
+}
