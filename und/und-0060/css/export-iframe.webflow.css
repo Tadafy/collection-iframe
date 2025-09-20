@@ -1,0 +1,41 @@
+body {
+  background-color: transparent;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+}
+
+.btn__und-0060 {
+  color: #2a3239;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  flex: none;
+  align-self: center;
+  font-family: Montserrat, sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+}
+
+.und-0060__line {
+  background-color: #ffe14d;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: -1px;
+  left: -2px;
+}
+
+.und-0060__label {
+  z-index: 1;
+  padding-top: 10px;
+  padding-bottom: 8px;
+  padding-right: 5px;
+  position: relative;
+}

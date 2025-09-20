@@ -1,0 +1,45 @@
+body {
+  background-color: transparent;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+}
+
+.btn__und-0030 {
+  color: #2a3239;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  flex: none;
+  align-self: center;
+  font-family: Exo, sans-serif;
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 1;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+}
+
+.und-0030__line {
+  background-color: #2a3239;
+  width: 0%;
+  height: 6px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.und-0030__line.line--uper {
+  top: 0;
+  bottom: auto;
+  left: auto;
+}
+
+.und-0030__label {
+  padding-top: 13px;
+  padding-bottom: 11px;
+}

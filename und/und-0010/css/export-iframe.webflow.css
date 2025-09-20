@@ -1,0 +1,32 @@
+body {
+  background-color: transparent;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+}
+
+.btn__und-0010 {
+  color: #2a3239;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-bottom: 4px solid #0000;
+  flex: none;
+  align-self: center;
+  font-family: Droid Serif, serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn__und-0010:hover {
+  border-bottom-color: #2a3239;
+}
+
+.und-0010__label {
+  padding-bottom: 6px;
+}

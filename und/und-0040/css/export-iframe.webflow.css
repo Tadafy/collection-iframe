@@ -1,0 +1,38 @@
+body {
+  background-color: transparent;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+}
+
+.btn__und-0040 {
+  color: #5c2fda;
+  text-align: center;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  flex: none;
+  align-self: center;
+  font-family: Montserrat, sans-serif;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 1;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+}
+
+.und-0040__line {
+  background-color: #5c2fda;
+  width: 25%;
+  height: 5px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.und-0040__label {
+  padding-bottom: 11px;
+}
