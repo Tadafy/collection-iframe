@@ -1,0 +1,58 @@
+body {
+  background-color: #0000;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  overflow: hidden;
+}
+
+.btn__ico-0025 {
+  color: #2a3239;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  flex: none;
+  align-self: center;
+  align-items: center;
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.2;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.ico-0025__wrap {
+  align-items: center;
+  display: flex;
+}
+
+.ico-0025__label-w {
+  white-space: nowrap;
+  flex: 0 auto;
+  align-content: space-around;
+  align-items: center;
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+}
+
+.ico-0025__label {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.ico-0025__space {
+  width: 11px;
+  height: 11px;
+}
+
+.ico-0025__arrow {
+  border: 7px solid #0000;
+  border-left: 11px solid #2a3239;
+  border-right-width: 0;
+  width: 13px;
+  height: 13px;
+}

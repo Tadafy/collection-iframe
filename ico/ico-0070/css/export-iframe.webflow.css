@@ -1,0 +1,100 @@
+body {
+  background-color: #0000;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  overflow: hidden;
+}
+
+.btn__ico-0070 {
+  z-index: 10;
+  color: #000;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border-radius: 100px;
+  flex: none;
+  justify-content: flex-end;
+  align-self: center;
+  align-items: center;
+  font-family: Montserrat, sans-serif;
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 1;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  transform: translate(0);
+}
+
+.ico-0070__wrap {
+  align-items: center;
+  height: 50px;
+  display: flex;
+}
+
+.ico-0070__fill {
+  background-color: #549eff;
+  border-radius: 100px;
+  width: 100%;
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: -100%;
+}
+
+.ico-0070__circ {
+  background-color: #549eff;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  right: 0%;
+  transform: translate(100%);
+}
+
+.ico-0070__circ-bgr {
+  background-color: #549eff;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -50%;
+}
+
+.ico-0070__arrow {
+  backface-visibility: hidden;
+  border-bottom: 3px solid #fff;
+  border-right: 3px solid #fff;
+  flex: none;
+  width: 13px;
+  height: 13px;
+  margin: auto;
+  position: absolute;
+  inset: 0% 0% 0% -5px;
+  transform: rotate(-45deg);
+}
+
+.ico-0070__line {
+  transform-origin: 100% 100%;
+  background-color: #fff;
+  width: 3px;
+  height: 300%;
+  position: absolute;
+  inset: auto -1px 1px auto;
+  transform: rotate(-45deg);
+}
+
+.ico-0070__label {
+  flex: 1;
+  padding: 4px 50px 4px 60px;
+  position: relative;
+}

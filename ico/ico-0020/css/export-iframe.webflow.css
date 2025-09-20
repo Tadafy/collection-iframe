@@ -1,0 +1,49 @@
+body {
+  background-color: #0000;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  overflow: hidden;
+}
+
+.btn__ico-0020 {
+  color: #2a3239;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  flex: none;
+  align-self: center;
+  align-items: center;
+  padding-right: 30px;
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.2;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.ico-0020__wrap {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.ico-0020__label {
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.ico-0020__arrow {
+  border-bottom: 3px solid #000;
+  border-right: 3px solid #000;
+  width: 10px;
+  height: 10px;
+  position: relative;
+  top: -1px;
+  right: -7px;
+  transform: rotate(-45deg);
+}
