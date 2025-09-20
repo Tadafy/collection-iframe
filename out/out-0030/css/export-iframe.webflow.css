@@ -1,0 +1,50 @@
+body {
+  background-color: transparent;  
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+}
+
+.btn__out-0030 {
+  color: #000;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  flex: none;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.2;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+}
+
+.out-0030__corner {
+  border-top-style: solid;
+  border-top-width: 4px;
+  border-left-style: solid;
+  border-left-width: 4px;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  inset: 0 auto auto 0;
+}
+
+.out-0030__corner.bott-r {
+  border-width: 0 4px 4px 0;
+  border-bottom-style: solid;
+  border-bottom-color: #000;
+  border-right-style: solid;
+  border-right-color: #000;
+  inset: auto 0 0 auto;
+}
+
+.out-0030__label {
+  padding: 30px 35px;
+}

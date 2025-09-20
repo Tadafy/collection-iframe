@@ -1,0 +1,38 @@
+body {
+  background-color: transparent;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+}
+
+.btn__out-0070 {
+  color: #1e2429;
+  text-align: center;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  text-shadow: 0 0 1px #161b1f;
+  border-radius: 50px;
+  flex: none;
+  align-self: center;
+  font-family: Varela Round, sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 1.2;
+  text-decoration: none;
+  transition: all .3s;
+  display: inline-block;
+  position: relative;
+  box-shadow: inset 0 0 30px #0000, inset 0 0 10px #0000, 0 0 1px 3px #0000, 0 0 1px 4px #0000, 0 0 #f0f, 0 0 #f0f, 0 0 1px 4px #1f2429;
+}
+
+.btn__out-0070:hover {
+  color: #ff79ff;
+  text-shadow: -2px 0 2px #f0f, 1px -1px 2px #f0f, 1px 1px 2px #ff02ff, 0 0 8px #f0f;
+  box-shadow: inset 0 0 30px #fe00ff99, inset 0 0 10px #fb00ff, 0 0 1px 3px #ff68ff, 0 0 1px 4px #f0f, 0 0 15px #f0f, 0 0 40px #f0f, 0 0 1px 4px #262d33;
+}
+
+.out-0070__label {
+  padding: 20px 45px;
+}
