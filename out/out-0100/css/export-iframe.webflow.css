@@ -1,0 +1,42 @@
+body {
+  background-color: transparent;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+}
+
+.btn__out-0100 {
+  color: #fff;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  border: 3px solid #2a3239;
+  flex: none;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.2;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+}
+
+.out-0100__label {
+  background-color: #2a3239;
+  border: 3px solid #2a3239;
+  margin: 4px;
+  padding: 30px 60px;
+  transition: all .2s;
+  position: relative;
+}
+
+.out-0100__label:hover {
+  background-color: #00dd69;
+  border-color: #0000;
+  margin: -3px;
+}

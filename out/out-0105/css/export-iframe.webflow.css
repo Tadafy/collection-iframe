@@ -1,0 +1,48 @@
+body {
+  background-color: transparent;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+}
+
+.btn__out-0105 {
+  color: #fff;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  background-color: #2a3239;
+  flex: none;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.2;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+}
+
+.out-0105__label {
+  padding: 30px 60px;
+  position: relative;
+}
+
+.out-0105__frame {
+  z-index: 1;
+  opacity: 0;
+  border: 4px solid #2a3239;
+  justify-content: center;
+  align-items: center;
+  transition: all .15s;
+  position: absolute;
+  inset: -15px;
+}
+
+.out-0105__frame:hover {
+  opacity: 1;
+  inset: -8px;
+}
