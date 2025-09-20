@@ -1,0 +1,60 @@
+body {
+  background-color: #0000;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  overflow: hidden;
+}
+
+.btn__sha-0060 {
+  color: #fff;
+  text-align: center;
+  letter-spacing: 2px;
+  flex: none;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  font-family: Montserrat, sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 1.2;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+}
+
+.sha-0060__wrap {
+  justify-content: center;
+  align-items: center;
+}
+
+.sha-0060__fade {
+  opacity: .45;
+  background-color: #fca23a;
+  background-image: radial-gradient(circle closest-corner at 50% -20%, #000, #0000), linear-gradient(13deg, #fe58b7, #fff0);
+  justify-content: center;
+  align-items: center;
+  margin-bottom: -8px;
+  position: absolute;
+  inset: 8px 0 0;
+}
+
+._3sha-0060__fill {
+  background-image: linear-gradient(40deg, #fe58b7 20%, #fca23a 90%);
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  inset: 0%;
+}
+
+.sha-0060__label {
+  padding: 22px 80px;
+  position: relative;
+}
+
+.sha-0060__300 {
+  font-weight: 300;
+}

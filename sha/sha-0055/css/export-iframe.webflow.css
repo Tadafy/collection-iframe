@@ -1,0 +1,44 @@
+body {
+  background-color: #0000;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  overflow: hidden;
+}
+
+.btn__sha-0055 {
+  color: #00f;
+  text-align: center;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  background-color: #fff;
+  border-radius: 40px;
+  flex: none;
+  align-self: center;
+  font-family: Open Sans, sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 1.2;
+  text-decoration: none;
+  transition: all 50ms;
+  display: inline-block;
+  position: relative;
+}
+
+.btn__sha-0055:hover {
+  color: #fff;
+  background-color: #00f;
+  box-shadow: 0 0 40px #ffffff4d, 0 0 75px #00f, 0 0 25px #00f, 0 0 5px #00f;
+}
+
+.sha-0055__label {
+  padding: 60px 45px;
+}
+
+.sha-0055__label:hover {
+  color: #fffc;
+  text-shadow: 0 0 5px #fff, 0 0 15px #fff;
+}
