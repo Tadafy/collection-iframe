@@ -1,0 +1,220 @@
+.w-checkbox {
+  margin-bottom: 5px;
+  padding-left: 20px;
+  display: block;
+}
+
+.w-checkbox:before {
+  content: " ";
+  grid-area: 1 / 1 / 2 / 2;
+  display: table;
+}
+
+.w-checkbox:after {
+  content: " ";
+  clear: both;
+  grid-area: 1 / 1 / 2 / 2;
+  display: table;
+}
+
+.w-checkbox-input {
+  float: left;
+  margin: 4px 0 0 -20px;
+  line-height: normal;
+}
+
+.w-checkbox-input--inputType-custom {
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  width: 12px;
+  height: 12px;
+}
+
+.w-checkbox-input--inputType-custom.w--redirected-checked {
+  background-color: #3898ec;
+  background-image: url('https://d3e54v103j8qbb.cloudfront.net/static/custom-checkbox-checkmark.589d534424.svg');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-color: #3898ec;
+}
+
+.w-checkbox-input--inputType-custom.w--redirected-focus {
+  box-shadow: 0 0 3px 1px #3898ec;
+}
+
+body {
+  background-color: #0000;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  overflow: hidden;
+}
+
+.tgl-0030-1__front--r {
+  background-color: #00d924;
+  justify-content: center;
+  align-items: center;
+  font-size: 26em;
+  display: flex;
+  position: absolute;
+  inset: 0%;
+}
+
+.tgl-0030-1__checkbox-label {
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 0;
+  display: none;
+  position: absolute;
+  inset: 0%;
+}
+
+.tgl-0030-1__side--l {
+  transform-origin: 0%;
+  transform-style: preserve-3d;
+  background-color: #dedede;
+  justify-content: center;
+  align-items: center;
+  font-size: 26em;
+  display: flex;
+  position: absolute;
+  inset: 0%;
+  transform: rotateX(0)rotateY(75deg)rotateZ(0);
+}
+
+.tgl-0030-1__bott {
+  transform-origin: 50% 100%;
+  transform-style: preserve-3d;
+  background-color: #d1d1d1;
+  justify-content: center;
+  align-items: center;
+  font-size: 26em;
+  display: flex;
+  position: absolute;
+  inset: 0%;
+  transform: rotateX(120deg)rotateY(0)rotateZ(0);
+}
+
+.tgl-0030-1__custom {
+  z-index: 2;
+  color: #2a3239;
+  text-align: center;
+  letter-spacing: .8em;
+  text-transform: uppercase;
+  justify-content: center;
+  align-items: flex-end;
+  height: 100%;
+  font-family: Montserrat, sans-serif;
+  font-weight: 600;
+  line-height: 1;
+  text-decoration: none;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.tgl-0030-1__wrap--l {
+  transform-origin: 100% 100%;
+  transform-style: preserve-3d;
+  width: 100em;
+  height: 80em;
+  display: inline-block;
+  position: relative;
+  transform: rotateX(30deg)rotateY(30deg)rotateZ(0);
+}
+
+.tgl-0030-1__front--l {
+  background-color: #ededed;
+  justify-content: center;
+  align-items: center;
+  font-size: 26em;
+  display: flex;
+  position: absolute;
+  inset: 0%;
+}
+
+.tgl-0030-1__shine {
+  background-color: #fff3;
+  width: 1em;
+  height: 80em;
+  position: absolute;
+  inset: 0% 0% 0% auto;
+}
+
+.tgl-0030-1__shine.shine--l {
+  inset: 0% auto 0% 0%;
+}
+
+.tgl-0030-1__wrap--r {
+  transform-origin: 0 100%;
+  transform-style: preserve-3d;
+  width: 100em;
+  height: 80em;
+  display: inline-block;
+  position: relative;
+  transform: rotateX(30deg)rotateY(0)rotateZ(0);
+}
+
+.tgl-0030-1__divider {
+  background-color: #00000014;
+  width: 1em;
+  height: 80em;
+  position: absolute;
+  inset: 0% auto 0% 0%;
+}
+
+.btn__tgl-0030-1__checkboxwrap {
+  height: 100em;
+  margin-bottom: 0;
+  padding-left: 0;
+  font-size: .05em;
+  line-height: 1;
+  display: block;
+  position: relative;
+}
+
+.tgl-0030-1__checkbox {
+  z-index: 3;
+  opacity: 0;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  margin-top: 0;
+  margin-left: 0;
+  display: block;
+  position: absolute;
+  inset: 0%;
+}
+
+.tgl-0030-1__checkbox.w--redirected-checked {
+  background-image: none;
+  background-position: 0 0;
+  background-repeat: repeat;
+  background-size: auto;
+  width: 100%;
+  height: 100%;
+  margin-top: 0;
+  margin-left: 0;
+}
+
+.tgl-0030-1__side--r {
+  transform-origin: 100%;
+  transform-style: preserve-3d;
+  background-color: #c28502;
+  justify-content: center;
+  align-items: center;
+  font-size: 26em;
+  display: flex;
+  position: absolute;
+  inset: 0%;
+  transform: rotateX(0)rotateY(-75deg)rotateZ(0);
+}
+
+.tgl-0030-1__side--r.col--on {
+  background-color: #dedede;
+}
