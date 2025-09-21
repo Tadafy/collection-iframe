@@ -1,0 +1,40 @@
+name: Deploy to Cloudflare Pages
+
+on:
+  push:
+    branches:
+      - main   # ob vsakem pushu na glavno vejo
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Checkout repo
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 2. Setup Node.js (za generate-index.js)
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      # 3. Run index generator (iz mape _system/)
+      - name: Generate index.html
+        run: node ./_system/generate-index.js
+
+      # 4. Deploy to Cloudflare Pages
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/pages-action@v1
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          projectName: preview-tadafy   # Deploy na preview.tadafy.com
+          directory: .                  # root folder
+          branch: main
+
+      # 5. Purge Cloudflare cache
+      - name: Purge Cloudflare Cache
+        run: |
+          curl -X POST "https://api.cloudflare.com/client/v4/zones/${{ secrets.CLOUDFLARE_ZONE_ID }}/purge_cache"             -H "Authorization: Bearer ${{ secrets.CLOUDFLARE_API_TOKEN }}"             -H "Content-Type: application/json"             --data '{"purge_everything":true}'
