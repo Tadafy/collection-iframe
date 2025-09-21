@@ -1,0 +1,3 @@
+/*
+  Cache-Control: public, max-age=86400
+  Content-Security-Policy: frame-ancestors https://tadafy.com https://*.tadafy.com https://*.webflow.io https://tadafy.design.webflow.com;
